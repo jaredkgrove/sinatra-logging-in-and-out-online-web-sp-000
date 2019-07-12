@@ -1,3 +1,3 @@
 class User < ActiveRecord::Base
-  validate_presence_of :name, :email, :password
+  validates_presence_of :name, :email, :password
 end
